@@ -125,6 +125,27 @@ bot.on('message', msg=>{
      if(msg.content === "i'm sad, Victor"){
         msg.channel.sendMessage("Well, that's no good. I think you're pretty darn swell, and I hate t'see ya frown. Chin up, cause this old cowboy's here for you.")
     }
+    if(msg.content === "Robert House"){
+        msg.channel.sendMessage("He made me! Rather not wear his name out though.")
+    }
+    if(msg.content === "Mr. House"){
+        msg.channel.sendMessage("He made me! Rather not wear his name out though.")
+    }
+    if(msg.content === "Mr.House"){
+        msg.channel.sendMessage("He made me! Rather not wear his name out though.")
+    }
+    if(msg.content === "Victor, what do you think of Mr. House?"){
+        msg.channel.sendMessage("He made me! Rather not wear his name out though.")
+    }
+    if(msg.content === "Victor"){
+        msg.channel.sendMessage("Howdy!")
+    }
+    if(msg.content === "Victor!"){
+        msg.channel.sendMessage("Howdy!")
+    }
+    if(msg.content === "Victor."){
+        msg.channel.sendMessage("Howdy!")
+    }
 })
 
 bot.login(process.env.token);
