@@ -29,6 +29,18 @@ bot.on('message', msg=>{
     if(msg.content === "Fuck me, Victor!"){
         msg.channel.sendMessage("Save a horse, ride a Cowboy!")
     }
+    if(msg.content === "How are you, Victor?"){
+        msg.channel.sendMessage("I'm feelin' fit as a fiddle, thank you!")
+    }
+    if(msg.content === "how are you, Victor?"){
+        msg.channel.sendMessage("I'm feelin' fit as a fiddle, thank you!")
+    }
+    if(msg.content === "What are you, Victor?"){
+        msg.channel.sendMessage("I'm a RobCo Securitron, and a pal of yours.")
+    }
+    if(msg.content === "I love you, Victor!"){
+        msg.channel.sendMessage("Well now, you're so sweet you're gonna give me the honeyglows. I love ya too.")
+    }
 })
 
 bot.login(process.env.token);
